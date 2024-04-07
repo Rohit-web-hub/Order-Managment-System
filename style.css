@@ -1,0 +1,206 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(19, 19, 104);
+}
+
+.nav-1 h1:before {
+    content: 'On';
+    color: white;
+    font-size: 32px;
+}
+
+.nav-1 h1:after {
+    content: 'Door';
+    color: #ff0000;
+    font-size: 37px;
+}
+
+.nav-2{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.nav-2 a:hover{
+    color: #ff0000;
+}
+
+.nav-3 {
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-3 button:hover {
+    background-color: darkkhaki;
+    color: #ff0000;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 15px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.nav a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.nav-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 15px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.container {
+    background-color: rgb(233, 228, 228);
+}
+/* Home-container */
+
+.Home-container {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.home-top {
+    width: 200%;
+}
+.home-right{
+    margin-top: 115px;
+}
+.home-right img{
+    width: 90%;
+}
+
+.h-name h1 {
+    font-size: 33px;
+    color: rgb(14, 14, 97);
+    margin: 40px;
+}
+.h-name :hover{
+    color: #ff0000;
+    border: none;
+} 
+
+.h1 {
+    margin: 40px;
+    align-items: center;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+    width: 24%;
+    display: flex;
+    background-color: #ff0000;
+}
+.h1:hover{
+    color: black;
+    background-color: rgb(7, 6, 6);
+}
+
+.h1 img {
+    width: 10%;
+    margin: 12px;
+}
+
+.btn {
+    align-items: center;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    background: none;
+    color: white;
+    margin-left: 12px;
+}
+
+
+/* footer section */
+
+.footer-container{
+    background-color: black;
+}
+
+.footer-1{
+    display: flex;
+    margin: 30px;
+}
+.f-left{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 53%;
+    align-items: center;
+}
+
+.fl-1-logo {
+    align-items: center;
+}
+.fl-1-logo img{
+    width: 60%;
+    align-items: center;
+    margin: 20px;
+
+}
+.fl-2-r{
+    margin-right: 350px;
+}
+.fl-2-r p{
+    color: white;
+    font-size: 16px;
+}
+
+.f-right{
+    display: flex;
+    justify-content: space-around;
+}
+.fr{
+    padding-left: 100px;
+    padding-top: 40px;  
+}
+.fr li {
+    color: white;
+    font-size: 16px;
+    list-style-type: none;
+}
+.footer-bottom{
+    display: flex;
+    background-color: rgb(26, 15, 96);
+    }
+.fb-left{
+     padding-left: 100px;
+     width: 50%;
+     
+}
+.fb-left h1{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1.6px;
+}
+.fb-left p{
+    color: white;
+    text-align: center;
+}
+.fb-right{
+    align-items: center;
+    margin-left: 34%;
+}
+.fb-right img{ 
+    width: 8%;
+    align-items: center;
+    margin: 20px;
+
+}
+
+
